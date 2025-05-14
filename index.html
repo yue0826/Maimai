@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maimai Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .button {
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+    .song-display {
+      margin: 20px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Maimai Tracker</h1>
+  <button class="button" id="randomSong">Random Song</button>
+  <button class="button" id="practiceSong">Practice Song</button>
+  <div id="songDisplay" class="song-display"></div>
+  <h2>All Songs</h2>
+  <ul id="songList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
